@@ -1,6 +1,7 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
+
 ## Function makeCacheMatrix takes user defined matrix and returns list of functions that set the matrix,
 ##get the matix, set the inverse value and get inverse value. Variable m contains the stored value. In the
 ## begining it set to NULL later function setinverse stors inverse value 
@@ -34,4 +35,9 @@ cacheSolve <- function(x, ...) {
         m <- solve(data, ...)
         x$setinverse(m)
         m
+
+
 }
+
+
+
